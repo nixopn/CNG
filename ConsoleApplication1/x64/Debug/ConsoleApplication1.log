@@ -1,0 +1,13 @@
+﻿  ConsoleApplication1.c
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(56,109): warning C4267: функция: преобразование из "size_t" в "ULONG"; возможна потеря данных
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(87,106): warning C4267: функция: преобразование из "size_t" в "ULONG"; возможна потеря данных
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(158,76): warning C4047: функция: "ULONG *" отличается по уровням косвенного обращения от "PBYTE *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(158,76): warning C4024: BCryptSignHash: различные типы для формального и фактического параметров 7
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(163,63): warning C4047: функция: "SIZE_T" отличается по уровням косвенного обращения от "PBYTE"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(163,63): warning C4024: HeapAlloc: различные типы для формального и фактического параметров 3
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(164,80): warning C4047: функция: "ULONG" отличается по уровням косвенного обращения от "PBYTE"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(164,80): warning C4024: BCryptSignHash: различные типы для формального и фактического параметров 6
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(164,93): warning C4047: функция: "ULONG *" отличается по уровням косвенного обращения от "PBYTE *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(164,93): warning C4024: BCryptSignHash: различные типы для формального и фактического параметров 7
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(202,87): warning C4311: приведение типов: усечение указателя из "PBYTE" в "ULONG"
+  ConsoleApplication1.vcxproj -> C:\Users\Владимир\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
