@@ -40,9 +40,9 @@ int main() {
 
     const wchar_t aaaaaaaa[] = BCRYPT_ECC_CURVE_SECP256R1;
 
-    switch (naming) 
+    switch (naming)
     {
-    case 1: 
+    case 1:
         status = BCryptOpenAlgorithmProvider(
             &AlgHandle,
             BCRYPT_ECDSA_ALGORITHM,
@@ -53,7 +53,7 @@ int main() {
             printf("Error1 key 0x%x \n", status);
             goto cleanup;
         }
-        status = BCryptSetProperty(AlgHandle, BCRYPT_ECC_CURVE_NAME, (PUCHAR)aaaaaaaa, (wcslen(aaaaaaaa)+1) * sizeof(wchar_t), 0);
+        status = BCryptSetProperty(AlgHandle, BCRYPT_ECC_CURVE_NAME, (PUCHAR)aaaaaaaa, (wcslen(aaaaaaaa) + 1) * sizeof(wchar_t), 0);
         if (!NT_SUCCESS(status)) {
             printf("Error2 key set property 0x%x \n", status);
             goto cleanup;
@@ -125,7 +125,7 @@ int main() {
         printf("Error1 0x%x \n", status);
         goto cleanup;
     }
-    status = BCryptGetProperty(HashAlgHandle,BCRYPT_HASH_LENGTH,(PBYTE)&HashDigestLength,sizeof(HashDigestLength),&ResultLength,0);
+    status = BCryptGetProperty(HashAlgHandle, BCRYPT_HASH_LENGTH, (PBYTE)&HashDigestLength, sizeof(HashDigestLength), &ResultLength, 0);
     if (!NT_SUCCESS(status)) {
         printf("Error2 0x%x \n", status);
         goto cleanup;
@@ -146,15 +146,15 @@ int main() {
         printf("Error4 0x%x \n", status);
         goto cleanup;
     }
-    
+
 
     status = BCryptFinishHash(HashHandle, pbHash, HashDigestLength, 0);
     if (!NT_SUCCESS(status)) {
         printf("Error5 0x%x \n", status);
         goto cleanup;
     }
-    
-    
+
+
     status = BCryptSignHash(hkey, NULL, pbHash, HashDigestLength, NULL, 0, &cbSignature, 0);
     if (!NT_SUCCESS(status)) {
         printf("Error6 0x%x \n", status);
@@ -168,7 +168,7 @@ int main() {
     }
     printf("signed \n");
 
-    status = BCryptExportKey(hkey, NULL, BCRYPT_ECCPRIVATE_BLOB, NULL, 0, &cbBlob, 0);                         
+    status = BCryptExportKey(hkey, NULL, BCRYPT_ECCPUBLIC_BLOB, NULL, 0, &cbBlob, 0);
     if (!NT_SUCCESS(status))
     {
         printf("Error7 ex 0x%x \n", status);
@@ -182,7 +182,7 @@ int main() {
         goto cleanup;
     }
 
-    status = BCryptExportKey(hkey, NULL, BCRYPT_ECCPRIVATE_BLOB, pbBlob, cbBlob, &ResultLength, 0);                         
+    status = BCryptExportKey(hkey, NULL, BCRYPT_ECCPUBLIC_BLOB, pbBlob, cbBlob, &ResultLength, 0);
     if (!NT_SUCCESS(status))
     {
         printf("Error7 ex 2 0x%x \n", status);
@@ -191,7 +191,7 @@ int main() {
 
 
 
-    status = BCryptImportKeyPair(AlgHandle, NULL, BCRYPT_ECCPRIVATE_BLOB, &hkey, pbBlob, cbBlob, 0);                         
+    status = BCryptImportKeyPair(AlgHandle, NULL, BCRYPT_ECCPUBLIC_BLOB, &hkey, pbBlob, cbBlob, 0);
     if (!NT_SUCCESS(status))
     {
         printf("Error7 ip 0x%x \n", status);
@@ -205,33 +205,33 @@ int main() {
         goto cleanup;
     }
     printf("Verified \n");
-    cleanup:
- /*       if (hkey != NULL) {
-            BcryptDestroyKey(hkey);
-        }*/
-        if (AlgHandle != NULL) {
-            BCryptCloseAlgorithmProvider(AlgHandle, 0);
-        }
+cleanup:
+    /*       if (hkey != NULL) {
+               BcryptDestroyKey(hkey);
+           }*/
+    if (AlgHandle != NULL) {
+        BCryptCloseAlgorithmProvider(AlgHandle, 0);
+    }
 
-        if (HashAlgHandle != NULL)
-        {
-            BCryptCloseAlgorithmProvider(HashAlgHandle, 0);
-        }
+    if (HashAlgHandle != NULL)
+    {
+        BCryptCloseAlgorithmProvider(HashAlgHandle, 0);
+    }
 
-        if (HashHandle != NULL)
-        {
-            BCryptDestroyHash(HashHandle);
-        }
+    if (HashHandle != NULL)
+    {
+        BCryptDestroyHash(HashHandle);
+    }
 
-        if (pbHashObject != NULL)
-        {
-            HeapFree(GetProcessHeap(), 0, pbHashObject);
-        }
+    if (pbHashObject != NULL)
+    {
+        HeapFree(GetProcessHeap(), 0, pbHashObject);
+    }
 
-        if (pbHash != NULL)
-        {
-            HeapFree(GetProcessHeap(), 0, pbHash);
-        }
+    if (pbHash != NULL)
+    {
+        HeapFree(GetProcessHeap(), 0, pbHash);
+    }
 
 
 
