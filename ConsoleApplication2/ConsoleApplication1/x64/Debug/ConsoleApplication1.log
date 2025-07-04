@@ -1,0 +1,9 @@
+﻿  ConsoleApplication1.c
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(44,61): warning C4133: функция: несовместимые типы - из "wchar_t *" в "PUCHAR"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(44,102): warning C4267: функция: преобразование из "size_t" в "ULONG"; возможна потеря данных
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(81,111): warning C4267: функция: преобразование из "size_t" в "ULONG"; возможна потеря данных
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(262,64): warning C4090: "функция": разные квалификаторы "const"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(269,1): warning C4102: cleanup: неиспользованная метка
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(254,10): warning C4101: bUseNamedCurveInterface: неиспользованная локальная переменная
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(255,10): warning C4101: bSetCurveNameAsKeyProperty: неиспользованная локальная переменная
+  ConsoleApplication1.vcxproj -> C:\Users\Владимир\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

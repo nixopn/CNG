@@ -198,7 +198,7 @@ int main() {
         goto cleanup;
     }
 
-
+    //сделать verify key и оба освободить в коцне
     status = BCryptVerifySignature(hkey, NULL, pbHash, HashDigestLength, pbSignature, (ULONG)cbSignature, 0);
     if (!NT_SUCCESS(status)) {
         printf("Error8 ver 0x%x \n", status);
