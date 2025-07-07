@@ -1,0 +1,24 @@
+﻿  ConsoleApplication1.c
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(122,61): warning C4133: функция: несовместимые типы - из "unsigned short [10]" в "PBYTE"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(122,130): warning C4267: функция: преобразование из "size_t" в "DWORD"; возможна потеря данных
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(134,68): warning C4047: функция: "DWORD *" отличается по уровням косвенного обращения от "PBYTE *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(134,68): warning C4024: NCryptSignHash: различные типы для формального и фактического параметров 7
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(140,63): warning C4047: функция: "SIZE_T" отличается по уровням косвенного обращения от "PBYTE"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(140,63): warning C4024: HeapAlloc: различные типы для формального и фактического параметров 3
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(141,72): warning C4047: функция: "DWORD" отличается по уровням косвенного обращения от "PBYTE"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(141,72): warning C4024: NCryptSignHash: различные типы для формального и фактического параметров 6
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(141,85): warning C4047: функция: "DWORD *" отличается по уровням косвенного обращения от "PBYTE *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(141,85): warning C4024: NCryptSignHash: различные типы для формального и фактического параметров 7
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(148,36): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(148,36): warning C4024: NCryptExportKey: различные типы для формального и фактического параметров 2
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(154,36): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(154,36): warning C4024: NCryptExportKey: различные типы для формального и фактического параметров 2
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(168,73): warning C4047: функция: "BCRYPT_KEY_HANDLE *" отличается по уровням косвенного обращения от "NCRYPT_KEY_HANDLE *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(168,73): warning C4022: BCryptImportKeyPair: несоответствие указателя для фактического параметра 4
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(174,36): warning C4022: BCryptVerifySignature: несоответствие указателя для фактического параметра 1
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(174,82): warning C4047: функция: "ULONG" отличается по уровням косвенного обращения от "PBYTE"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(174,82): warning C4024: BCryptVerifySignature: различные типы для формального и фактического параметров 6
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(182,14): warning C4047: !=: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(185,14): warning C4047: !=: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(207,15): warning C4047: !=: "NCRYPT_PROV_HANDLE" отличается по уровням косвенного обращения от "void *"
+  ConsoleApplication1.vcxproj -> C:\Users\Владимир\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
