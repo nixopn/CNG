@@ -1,13 +1,42 @@
 ﻿  ConsoleApplication1.c
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(56,109): warning C4267: функция: преобразование из "size_t" в "ULONG"; возможна потеря данных
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(87,106): warning C4267: функция: преобразование из "size_t" в "ULONG"; возможна потеря данных
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(158,76): warning C4047: функция: "ULONG *" отличается по уровням косвенного обращения от "PBYTE *"
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(158,76): warning C4024: BCryptSignHash: различные типы для формального и фактического параметров 7
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(163,63): warning C4047: функция: "SIZE_T" отличается по уровням косвенного обращения от "PBYTE"
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(163,63): warning C4024: HeapAlloc: различные типы для формального и фактического параметров 3
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(164,80): warning C4047: функция: "ULONG" отличается по уровням косвенного обращения от "PBYTE"
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(164,80): warning C4024: BCryptSignHash: различные типы для формального и фактического параметров 6
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(164,93): warning C4047: функция: "ULONG *" отличается по уровням косвенного обращения от "PBYTE *"
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(164,93): warning C4024: BCryptSignHash: различные типы для формального и фактического параметров 7
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(202,87): warning C4311: приведение типов: усечение указателя из "PBYTE" в "ULONG"
-  ConsoleApplication1.vcxproj -> C:\Users\Владимир\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(16,42): warning C4047: функция: "BCRYPT_ALG_HANDLE *" отличается по уровням косвенного обращения от "BCRYPT_ALG_HANDLE **"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(16,42): warning C4022: BCryptOpenAlgorithmProvider: несоответствие указателя для фактического параметра 1
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(16,12): warning C4047: =: "NTSTATUS *" отличается по уровням косвенного обращения от "NTSTATUS"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(17,10): warning C4311: приведение типов: усечение указателя из "NTSTATUS *" в "NTSTATUS"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(18,16): warning C4477: "printf": в строке форматирования "%x" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "NTSTATUS *"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(18,16): warning C4313: printf: конфликт "%x" в строке формата с аргументом 1 типа "NTSTATUS *"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(21,12): warning C4047: =: "NTSTATUS *" отличается по уровням косвенного обращения от "NTSTATUS"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(22,10): warning C4311: приведение типов: усечение указателя из "NTSTATUS *" в "NTSTATUS"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(23,16): warning C4477: "printf": в строке форматирования "%x" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "NTSTATUS *"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(23,16): warning C4313: printf: конфликт "%x" в строке формата с аргументом 1 типа "NTSTATUS *"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(26,41): warning C4047: функция: "BCRYPT_HASH_HANDLE *" отличается по уровням косвенного обращения от "BCRYPT_HASH_HANDLE **"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(26,41): warning C4022: BCryptCreateHash: несоответствие указателя для фактического параметра 2
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(26,12): warning C4047: =: "NTSTATUS *" отличается по уровням косвенного обращения от "NTSTATUS"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(27,10): warning C4311: приведение типов: усечение указателя из "NTSTATUS *" в "NTSTATUS"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(28,16): warning C4477: "printf": в строке форматирования "%x" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "NTSTATUS *"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(28,16): warning C4313: printf: конфликт "%x" в строке формата с аргументом 1 типа "NTSTATUS *"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(32,12): warning C4047: =: "NTSTATUS *" отличается по уровням косвенного обращения от "NTSTATUS"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(33,10): warning C4311: приведение типов: усечение указателя из "NTSTATUS *" в "NTSTATUS"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(34,16): warning C4477: "printf": в строке форматирования "%x" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "NTSTATUS *"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(34,16): warning C4313: printf: конфликт "%x" в строке формата с аргументом 1 типа "NTSTATUS *"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(39,12): warning C4047: =: "NTSTATUS *" отличается по уровням косвенного обращения от "NTSTATUS"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(40,10): warning C4311: приведение типов: усечение указателя из "NTSTATUS *" в "NTSTATUS"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(41,16): warning C4477: "printf": в строке форматирования "%x" требуется аргумент типа "unsigned int", но вариативный аргумент "1" имеет тип "NTSTATUS *"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(41,16): warning C4313: printf: конфликт "%x" в строке формата с аргументом 1 типа "NTSTATUS *"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(125,114): warning C4267: функция: преобразование из "size_t" в "ULONG"; возможна потеря данных
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(145,114): warning C4267: функция: преобразование из "size_t" в "ULONG"; возможна потеря данных
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(208,12): warning C4047: функция: "NTSTATUS *" отличается по уровням косвенного обращения от "NTSTATUS"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(208,12): warning C4024: CrHash: различные типы для формального и фактического параметров 1
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(208,37): warning C4047: функция: "DWORD" отличается по уровням косвенного обращения от "DWORD *"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(208,37): warning C4024: CrHash: различные типы для формального и фактического параметров 4
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(208,58): warning C4090: "функция": разные квалификаторы "const"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(210,68): warning C4047: функция: "ULONG *" отличается по уровням косвенного обращения от "PBYTE *"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(210,68): warning C4024: BCryptSignHash: различные типы для формального и фактического параметров 7
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(215,63): warning C4047: функция: "SIZE_T" отличается по уровням косвенного обращения от "PBYTE"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(215,63): warning C4024: HeapAlloc: различные типы для формального и фактического параметров 3
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(216,72): warning C4047: функция: "ULONG" отличается по уровням косвенного обращения от "PBYTE"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(216,72): warning C4024: BCryptSignHash: различные типы для формального и фактического параметров 6
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(216,85): warning C4047: функция: "ULONG *" отличается по уровням косвенного обращения от "PBYTE *"
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(216,85): warning C4024: BCryptSignHash: различные типы для формального и фактического параметров 7
+E:\cng\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(254,82): warning C4311: приведение типов: усечение указателя из "PBYTE" в "ULONG"
+  ConsoleApplication1.vcxproj -> E:\cng\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
