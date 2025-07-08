@@ -1,19 +1,35 @@
 ﻿  ConsoleApplication1.c
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(114,65): warning C4133: функция: несовместимые типы - из "unsigned short [10]" в "PBYTE"
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(114,134): warning C4267: функция: преобразование из "size_t" в "DWORD"; возможна потеря данных
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(131,66): warning C4133: функция: несовместимые типы - из "unsigned short [10]" в "PBYTE"
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(131,135): warning C4267: функция: преобразование из "size_t" в "DWORD"; возможна потеря данных
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(146,41): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(146,41): warning C4024: NCryptExportKey: различные типы для формального и фактического параметров 2
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(152,41): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(152,41): warning C4024: NCryptExportKey: различные типы для формального и фактического параметров 2
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(160,41): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(160,41): warning C4024: NCryptImportKey: различные типы для формального и фактического параметров 2
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(172,29): warning C4022: BCryptDestroySecret: несоответствие указателя для фактического параметра 1
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(181,40): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "BCRYPT_KEY_HANDLE"
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(181,40): warning C4024: NCryptSecretAgreement: различные типы для формального и фактического параметров 1
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(218,18): warning C4047: !=: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(221,18): warning C4047: !=: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(244,19): warning C4047: !=: "NCRYPT_PROV_HANDLE" отличается по уровням косвенного обращения от "void *"
-C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(145,15): warning C4101: ResultLength: неиспользованная локальная переменная
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(149,79): warning C4090: "функция": разные квалификаторы "const"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(149,116): warning C4267: функция: преобразование из "size_t" в "DWORD"; возможна потеря данных
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(166,80): warning C4090: "функция": разные квалификаторы "const"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(166,117): warning C4267: функция: преобразование из "size_t" в "DWORD"; возможна потеря данных
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(181,41): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(181,41): warning C4024: NCryptExportKey: различные типы для формального и фактического параметров 2
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(187,41): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(187,41): warning C4024: NCryptExportKey: различные типы для формального и фактического параметров 2
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(262,41): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(262,41): warning C4024: NCryptExportKey: различные типы для формального и фактического параметров 2
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(268,41): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(268,41): warning C4024: NCryptExportKey: различные типы для формального и фактического параметров 2
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(283,41): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(283,41): warning C4024: NCryptExportKey: различные типы для формального и фактического параметров 2
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(290,41): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(290,41): warning C4024: NCryptExportKey: различные типы для формального и фактического параметров 2
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(307,41): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(307,41): warning C4024: NCryptImportKey: различные типы для формального и фактического параметров 2
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(312,42): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(312,42): warning C4024: NCryptImportKey: различные типы для формального и фактического параметров 2
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(313,42): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(313,42): warning C4024: NCryptImportKey: различные типы для формального и фактического параметров 2
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(329,41): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(329,41): warning C4024: NCryptImportKey: различные типы для формального и фактического параметров 2
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(339,29): warning C4022: BCryptDestroySecret: несоответствие указателя для фактического параметра 1
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(346,29): warning C4022: BCryptDestroySecret: несоответствие указателя для фактического параметра 1
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(348,41): warning C4047: функция: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(348,41): warning C4024: NCryptImportKey: различные типы для формального и фактического параметров 2
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(360,29): warning C4022: BCryptDestroySecret: несоответствие указателя для фактического параметра 1
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(392,18): warning C4047: !=: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(395,18): warning C4047: !=: "NCRYPT_KEY_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(418,19): warning C4047: !=: "NCRYPT_PROV_HANDLE" отличается по уровням косвенного обращения от "void *"
+C:\Users\Владимир\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.c(180,15): warning C4101: ResultLength: неиспользованная локальная переменная
   ConsoleApplication1.vcxproj -> C:\Users\Владимир\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
